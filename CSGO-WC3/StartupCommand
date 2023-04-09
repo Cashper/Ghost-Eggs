@@ -1,0 +1,1 @@
+./srcds_run -game csgo -console -port {{SERVER_PORT}} +ip 0.0.0.0 +map {{SRCDS_MAP}} -strictportbind -norestart +sv_setsteamaccount {{STEAM_ACC}} -usercon +game_type 0 +game_mode 0  +mapgroup mg_active -autoupdate +sv_consistency 0 +sv_pure 0 +exec csgo/cfg/war3source_scgo.cfg -steamcmd_script steamcmd/steamcmd.sh
